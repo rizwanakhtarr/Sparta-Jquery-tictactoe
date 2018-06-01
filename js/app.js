@@ -19,26 +19,33 @@ $(document).ready(function(){
       anotherturn++;
 
 
+
     }
   });
 
-  
-
-  // $('#reset').click(function(){
-  //   $("td").remove();
-  // });
 
 
+  $('#reset').click(function(){
 
-  // $reset.children().hover();
-  // $("data-num").click(function() {
-  //   $(this).toggleClass('X');
+    var space0 = $("#clear tr:nth-child(0) td:nth-child(0)").html('');
+    var space1 = $("#clear tr:nth-child(1) td:nth-child(1)").html('');
+    var space2 = $("#clear tr:nth-child(2) td:nth-child(2)").html('');
+    var space3 = $("#clear tr:nth-child(3) td:nth-child(3)").html('');
+    var space4 = $("#clear tr:nth-child(4) td:nth-child(4)").html('');
+    var space5 = $("#clear tr:nth-child(5) td:nth-child(5)").html('');
+    var space6 = $("#clear tr:nth-child(6) td:nth-child(6)").html('');
+    var space7 = $("#clear tr:nth-child(7) td:nth-child(7)").html('');
+    var space8 = $("#clear tr:nth-child(8) td:nth-child(8)").html('');
+    //resets X nd O boxes
+
+});
 
 
-  // for (var i = 0; i < newreset.length; i++) {
-  //   $reset.append(`<table>${ reset[i] }</table>`); // using template lierals instead of concentation
-  // }
-  // // });
+
+
+
+
+
 
 
 });
